@@ -47,6 +47,7 @@ const mostrarBusca = () => {
 // mostrarBusca()
 
 const mostrarDesestruturacao = () => {
+  
   /* 5 - Desestruturação */
   /* 1) Faça uma desestruturação do array 'users', extraindo o primeiro e segundo valor */
   const [firstUser, secondUser] = users
@@ -58,8 +59,7 @@ const mostrarDesestruturacao = () => {
   const { name } = user
   console.log(name)
 
-  /* 3) Faça uma desestruturação do array 'users', extraindo a propriedade id do primeiro valor, e name do segundo valor */
-  
+  /* 3) Faça uma desestruturação do array 'users', extraindo a propriedade id do primeiro valor, e name do segundo valor */  
   const [{id: idPrimeiro},  {name: nameSegundo}] = users
   console.log(idPrimeiro)
   console.log(nameSegundo)
