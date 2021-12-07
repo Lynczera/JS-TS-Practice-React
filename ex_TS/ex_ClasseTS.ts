@@ -8,12 +8,6 @@ class TV {
   public canal : number = 1;
   public volume : number = 50;
 
-  constructor(){
-    this.marca = '',
-    this.canal = 1,
-    this.volume = 50
-  }
-
   aumentarVolume(){
     if(this.volume < 100){
       this.volume+=1
@@ -45,6 +39,7 @@ const tv = new TV();
 
 tv.diminuirVolume()
 console.log(tv)
+tv.aumentarVolume()
 tv.aumentarVolume()
 console.log(tv)
 
